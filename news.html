@@ -30,6 +30,24 @@
 					<a href="index.html"> <img src="slike/grb2.png" alt="grb kluba">
 					</a>
 					</div>
+					<button class="hamburger" id="hamburger">
+						<a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+							<img src="slike/menu.png">
+					  </a>
+					</button>
+					<div class="mobile-container">
+					<div class="topnav">
+					  <div id="linkovi">
+					    <a href="news.html" class="aktiv">Aktualnosti</a>
+					    <a href="seniori.html">Seniori / Seniorke</a>
+					  	<a href="juniori.html">Juniori / Juniorke</a>
+					  	<a href="kadeti.html">Kadeti / Kadetkinje</a>
+					    <a href="photos.html">Fotografije</a>
+					  	<a href="videos.html">Video</a>
+					    <a href="contacts.html">Kontakt</a>
+					  </div>
+					  
+					</div>
 					<div class="navigation">
 					  	<a href="index.html">Naslovna</a>
 					  	<a href="news.html">Aktualnosti</a>
@@ -64,6 +82,7 @@
 	Mirjana Šimek Bilić je s vremenom 18:55 pobijedila u svojoj kategoriji Ž-35, a tim je rezultatom osvojila peto mjesto u ukupnom poretku atletičarki.
 	Čestitamo!</p>
 				</div>
+				<hr>
 				<br>
 				<h3>PH u trailu</h3>
 				<h4>06.09.2021.</h4>
@@ -80,6 +99,7 @@ Na Medvednici postoji i crkva Majke Božje Sljemenske Kraljice Hrvata.</p>
 
 Medvednica, in comparison to the surrounding lowland area, behaves as an "island" in its climate characteristics, with more precipitation, lower temperatures, and higher duration and quantity of snow cover. The Medvednica area is located in a temperature zone where air temperature decreases for 0.5 °C for every 100 m of elevation. Based on the annual rate of precipitation, Medvednica is characterised as having a continental precipitation regimen with maximum precipitation during the warm part of the year (April to September).</p>
 				</div>
+				<hr>
 
 
 
@@ -94,6 +114,18 @@ Medvednica, in comparison to the surrounding lowland area, behaves as an "island
 
 			</main>
 			<footer>
+
+				<script>
+					function myFunction() {
+					  var x = document.getElementById("linkovi");
+					  if (x.style.display === "block") {
+					    x.style.display = "none";
+					  } else {
+					    x.style.display = "block";
+					  }
+					}
+				</script>
+
 				<br>
 				<a href="https://www.facebook.com/atletikavelikagorica">
 					<img src="slike/face.png">
