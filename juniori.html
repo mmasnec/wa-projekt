@@ -30,6 +30,24 @@
 					<a href="index.html"> <img src="slike/grb2.png" alt="grb kluba">
 					</a>
 					</div>
+					<button class="hamburger" id="hamburger">
+						<a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+							<img src="slike/menu.png">
+					  </a>
+					</button>
+					<div class="mobile-container">
+					<div class="topnav">
+					  <div id="linkovi">
+					    <a href="news.html">Aktualnosti</a>
+					    <a href="seniori.html">Seniori / Seniorke</a>
+					  	<a href="juniori.html" class="aktiv">Juniori / Juniorke</a>
+					  	<a href="kadeti.html">Kadeti / Kadetkinje</a>
+					    <a href="photos.html">Fotografije</a>
+					  	<a href="videos.html">Video</a>
+					    <a href="contacts.html">Kontakt</a>
+					  </div>
+					  
+					</div>
 					<div class="navigation">
 					  	<a href="index.html">Naslovna</a>
 					  	<a href="news.html">Aktualnosti</a>
@@ -83,6 +101,17 @@
 
 			</main>
 			<footer>
+
+				<script>
+					function myFunction() {
+					  var x = document.getElementById("linkovi");
+					  if (x.style.display === "block") {
+					    x.style.display = "none";
+					  } else {
+					    x.style.display = "block";
+					  }
+					}
+				</script>
 				<br>
 				<a href="https://www.facebook.com/atletikavelikagorica">
 					<img src="slike/face.png">
